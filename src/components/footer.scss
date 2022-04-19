@@ -1,0 +1,59 @@
+footer {
+  background-color: #E1F3F8;
+  padding-top: 60px;
+  flex: 0;
+  min-height: 200px;
+  // bottom: 0;
+  width: 100vw;
+  // align-self: flex-end;
+
+  .container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    p {
+      padding-right: 3rem;
+    }
+
+    div, a {
+      font-size: 12px;
+      line-height: 12px;
+    }
+  }
+
+  a,
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+  img {
+    width: 22px;
+    margin-right: 0.5rem;
+  }
+
+  img .social {
+    height: 0px;
+  }
+
+  .row + .row {
+    margin-top: 1rem;
+  }
+
+  .footer-email {
+    padding-top: 20px;
+  }
+
+  .footer-social {
+    padding-bottom: 7px;
+  }
+
+  .footer-post-script {
+    padding-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  #osba-logo {
+    width: 100px !important;
+  }
+}
