@@ -112,7 +112,7 @@ function App() {
             path="/"
             render={() => {
               if (typeof gtag === "function") {
-                gtag("config", "UA-163832126-1");
+                gtag("config", "UA-64303373-19");
               }
               return null;
             }}
